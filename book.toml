@@ -1,0 +1,6 @@
+[book]
+authors = ["Charliston Maffei"]
+language = "pt-br"
+multilingual = false
+src = "src"
+title = "Aprender Haskell"
