@@ -72,7 +72,7 @@ ghci> circumference 4.0
 25.132742
 ```
 
-##`Double` 
+## `Double` 
 É um ponto flutuante real com o dobro de precisão.
 
 ```haskell
@@ -86,7 +86,7 @@ ghci> circumference' 4.0
 ## `Bool`
 É um tipo booleano. Pode ter apenas dois valores: `True` e `False`.
 
-# `Char` 
+## `Char` 
 Representa um caractere. É indicado por aspas simples. Uma lista de caracteres é uma string.
 
 Tuplas são tipos, mas dependem do seu comprimento, bem como dos tipos de seus componentes. Teoricamente, há um número infinito de tipos de tuplas, o que é muito para cobrir neste tutorial. Note que a tupla vazia `()` também é um tipo que pode ter apenas um valor: `()`
