@@ -19,11 +19,11 @@
     - [Classes de tipo 101](./ch03/03-classes.md)
 
 - [Sintaxe em Funções](./ch04/chapter.md)
-  - [Correspondência de padrões]()
-  - [Guardas, guardas!]()
-  - [Onde!?]()
-  - [Deixe ser]()
-  - [Expressões de caso]()
+  - [Correspondência de padrões](./ch04/01-padroes.md)
+  - [Guardas, guardas!](./ch04/02-guardas.md)
+  - [Onde!?](./ch04/03-onde.md)
+  - [Deixe ser](./ch04/04-deixe.md)
+  - [Expressões de caso](./ch04/05-expressoes.md)
 
 - [Recursão](./ch05/chapter.md)
   - [Olá, recursão!]()
