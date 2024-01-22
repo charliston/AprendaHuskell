@@ -14,9 +14,9 @@
     - [Tuplas](./ch02/06-tuplas.md)
 
 - [Tipos e Classes de Tipos](./ch03/chapter.md)
-    - [Acredite no tipo]()
-    - [Variáveis de tipo]()
-    - [Classes de tipo 101]()
+    - [Acredite no tipo](./ch03/01-acredite.md)
+    - [Variáveis de tipo](./ch03/02-tipos.md)
+    - [Classes de tipo 101](./ch03/03-classes.md)
 
 - [Sintaxe em Funções](./ch04/chapter.md)
   - [Correspondência de padrões]()
