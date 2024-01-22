@@ -11,7 +11,7 @@ ghci> :t (==)
 (==) :: (Eq a) => a -> a -> Bool
 ```
 
-> **Nota**: o operador de igualdade, `==`, é uma função. Assim como `+`, `*`, `-`, `/` e praticamente todos os operadores. Se uma função é composta apenas por caracteres especiais, por padrão, ela é considerada uma função infix. Se quisermos examinar seu tipo, passá-la para outra função ou chamá-la como uma função prefixa, precisamos envolvê-la em parênteses.
+> **Nota:** o operador de igualdade, `==`, é uma função. Assim como `+`, `*`, `-`, `/` e praticamente todos os operadores. Se uma função é composta apenas por caracteres especiais, por padrão, ela é considerada uma função infix. Se quisermos examinar seu tipo, passá-la para outra função ou chamá-la como uma função prefixa, precisamos envolvê-la em parênteses.
 
 Interessante. Vemos algo novo aqui, o símbolo `=>`. Tudo antes do símbolo `=>` é chamado de **restrição de classe** (_class constraint_). Podemos ler a declaração de tipo anterior assim: a função de igualdade aceita dois valores de qualquer tipo e retorna um `Bool`. O tipo desses dois valores deve ser membro da classe `Eq` (esta foi a restrição de classe).
 
