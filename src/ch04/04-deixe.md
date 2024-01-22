@@ -1,4 +1,4 @@
-# Deixe estar
+# Deixe [x]
 
 Muito semelhante aos _bindings de where_ são os _bindings de let_. _Bindings de where_ são uma construção sintática que permite vincular variáveis no final de uma função e toda a função pode acessá-las, incluindo todas os _guardas_. _Bindings de let_ permitem vincular variáveis em qualquer lugar e são expressões em si mesmas, mas são muito locais, portanto, não abrangem _guardas_. Assim como qualquer construção em Haskell usada para vincular valores a nomes, _bindings de let_ podem ser usados para correspondência de padrões. Vamos vê-los em ação! Assim é como poderíamos definir uma função que nos dá a área da superfície de um cilindro com base em sua altura e raio:
 

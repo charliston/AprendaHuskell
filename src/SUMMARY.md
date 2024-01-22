@@ -22,7 +22,7 @@
   - [Correspondência de padrões](./ch04/01-padroes.md)
   - [Guardas, guardas!](./ch04/02-guardas.md)
   - [Onde!?](./ch04/03-onde.md)
-  - [Deixe ser](./ch04/04-deixe.md)
+  - [Deixe estar](./ch04/04-deixe.md)
   - [Expressões de caso](./ch04/05-expressoes.md)
 
 - [Recursão](./ch05/chapter.md)

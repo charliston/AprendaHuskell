@@ -23,16 +23,16 @@ Miran Lipovača é um estudante de ciência da computação em Liubliana, Eslov�
 - [x] Tuplas
 
 ### Tipos e Classes de Tipos
-- Acredite no tipo
-- Variáveis de tipo
-- Classes de tipo 101
+- [x] Acredite no tipo
+- [x] Variáveis de tipo
+- [x] Classes de tipo 101
 
 ### Sintaxe em Funções
-- Correspondência de padrões
-- Guardas, guardas!
-- Onde!?
-- Deixe ser
-- Expressões de caso
+- [x] Correspondência de padrões
+- [x] Guardas, guardas!
+- [x] Onde!?
+- [x] Deixe estar
+- [x] Expressões de caso
 
 ### Recursão
 - Olá, recursão!
