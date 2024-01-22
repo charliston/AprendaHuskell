@@ -1,6 +1,6 @@
 # Acredite no tipo
 
-![moo](assets/cow.png)
+![](assets/cow.png)
 
 Anteriormente, mencionamos que Haskell possui um sistema de tipos estático. O tipo de cada expressão é conhecido em tempo de compilação, o que leva a um código mais seguro. Se você escrever um programa em que tenta dividir um tipo booleano por algum número, nem mesmo será compilado. Isso é bom porque é melhor detectar tais erros em tempo de compilação, em vez de fazer seu programa falhar. Tudo em Haskell tem um tipo, então o compilador pode raciocinar bastante sobre seu programa antes de compilá-lo.
 
@@ -24,6 +24,8 @@ ghci> :t 4 == 5
 ```
 
 Aqui vemos que ao fazer `:t` em uma expressão, ela imprime a expressão seguida por `::` e seu tipo. `::` é lido como "tem o tipo de". Tipos explícitos são sempre indicados com a primeira letra em maiúscula. `'a'`, como parece, tem um tipo `Char`. Não é difícil concluir que isso representa um caractere. `True` é do tipo `Bool`. Isso faz sentido. Mas o que é isso? Examinar o tipo de `"HELLO!"` resulta em `[Char]`. Os colchetes indicam uma lista. Portanto, lemos isso como sendo uma _lista de caracteres_. Ao contrário das listas, cada comprimento de tupla tem seu próprio tipo. Assim, a expressão `(True, 'a')` tem um tipo de `(Bool, Char)`, enquanto uma expressão como `('a','b','c')` teria o tipo `(Char, Char, Char)`. `4 == 5` sempre retornará `False`, então seu tipo é `Bool`.
+
+![](assets/bomb.png)
 
 Funções também têm tipos. Ao escrever nossas próprias funções, podemos escolher dar a elas uma declaração de tipo explícita. Isso é geralmente considerado uma boa prática, exceto ao escrever funções muito curtas. Daqui em diante, daremos a todas as funções que fizermos declarações de tipo. Lembra-se da compreensão de lista que fizemos anteriormente, que filtra uma string para que apenas as letras maiúsculas permaneçam? Aqui está como ela fica com uma declaração de tipo.
 

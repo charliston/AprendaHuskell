@@ -1,5 +1,7 @@
 # Classes de tipo 101
 
+![](assets/classes.png)
+
 Uma _typeclass_ é uma espécie de interface que define algum comportamento. Se um tipo faz parte de uma _typeclass_, isso significa que ele suporta e implementa o comportamento descrito pela _typeclass_. Muitas pessoas que vêm da programação orientada a objetos ficam confusas com _typeclasses_ porque pensam que são como classes em linguagens orientadas a objetos. Bem, elas não são. Você pode pensar nelas de certa forma como interfaces em Java, apenas melhores.
 
 Qual é a assinatura de tipo da função `==`?

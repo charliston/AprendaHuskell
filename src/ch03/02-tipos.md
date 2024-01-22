@@ -6,6 +6,7 @@ Qual é o tipo da função `head`? Como `head` aceita uma lista de qualquer tipo
 ghci> :t head
 head :: [a] -> a
 ```
+![](assets/box.png)
 
 Hmm! O que é esse `a`? É um tipo? Lembre-se de que afirmamos anteriormente que tipos são escritos em maiúsculas, então não pode ser exatamente um tipo. Por não estar em maiúsculas, na verdade é uma **variável de tipo**. Isso significa que `a` pode ser de qualquer tipo. Isso é semelhante a genericidade em outras linguagens, só que em Haskell é muito mais poderoso, pois nos permite escrever funções muito gerais se elas não usam nenhum comportamento específico dos tipos nelas. Funções que têm variáveis de tipo são chamadas de **funções polimórficas**. A declaração de tipo de `head` afirma que ela aceita uma lista de qualquer tipo e retorna um elemento desse tipo.
 
